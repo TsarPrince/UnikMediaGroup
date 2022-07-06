@@ -1,0 +1,9 @@
+.card {
+  @apply p-8 border space-y-4 bg-white rounded-md;
+  p {
+    font-size: 19px;
+  }
+  div {
+    font-size: 16px;
+  }
+}

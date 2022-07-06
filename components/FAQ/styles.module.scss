@@ -1,0 +1,24 @@
+.faqButton{
+  @apply bg-blue-600 text-slate-50 text-lg rounded-md shadow-md font-medium select-none flex-shrink-0;
+  height: 41px;
+  width: 41px;
+  font-size: 25px;
+  font-weight: 700;
+
+}
+.faqButtonClosed{
+  @extend .faqButton;
+  color:#6F6C90;
+  background-color: #F7F7FF;
+  &:hover{
+   background-color: #e9e9f5;
+  }
+}
+.faqButtonOpen{
+  @extend .faqButton;
+  &:hover{
+    @apply bg-blue-700;
+  }
+  color:#ffffff;
+  background-color: #2F55D4;
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-rounded-md {
+    @apply bg-blue-600 text-slate-50 text-lg px-4 py-2 md:px-8 md:py-3 rounded-md shadow-md font-medium select-none hover:shadow-lg hover:bg-blue-700
+  }
+  .btn-rounded-md-outline {
+    @apply outline outline-offset-[-2px] outline-blue-600 text-blue-500 px-4 py-2 md:px-8 md:py-3 text-lg rounded-md font-medium select-none hover:shadow-lg hover:outline-transparent hover:bg-blue-700 hover:text-slate-50
+  }
+  .btn-rounded-full {
+    @apply bg-blue-600 text-slate-50 md:text-lg px-4 py-3 md:px-8 md:py-3 rounded-full shadow-md font-medium select-none hover:shadow-lg hover:bg-blue-700
+  }
+}
+
+* {
+  font-family: Nunito, sans-serif;
+}
